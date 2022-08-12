@@ -15,6 +15,6 @@ if (runSql) {
     PersonRepo.createsSomeData();
 }
  
-server.listen(6969);
+server.listen(cnf.port);
 
 console.log("Server executed at " + hostPath);
