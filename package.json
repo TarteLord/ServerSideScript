@@ -1,0 +1,18 @@
+{
+  "name": "dag1",
+  "version": "1.0.0",
+  "description": "yo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/server.js"
+  },
+  "author": "is me",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "nodemon": "^2.0.19",
+    "sql.js": "^1.7.0",
+    "sqlite3": "^5.0.11"
+  }
+}
